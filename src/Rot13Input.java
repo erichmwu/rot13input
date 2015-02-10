@@ -17,7 +17,7 @@ public class Rot13Input {
   /**
    * A command line executable that accepts input to print out lines using the Rot13 cipher
    *
-   * @param args contains the user input from command line
+   * @param args contains the user input from command line.
    * @throws IOException
    */
   public static void main(String[] args) throws IOException {
@@ -42,8 +42,8 @@ public class Rot13Input {
    * each letter 13 places through the alphabet.  Since the Latin alphabet
    * has 26 letters, this method both encodes and decodes.
    *
-   * @param c the plain text character to encode
-   * @return the encoded character
+   * @param c the plain text character to encode.
+   * @return the encoded character.
    **/
   public static char rot13(char c) {
     if ((c >= 'A') && (c <= 'Z')) {  // For uppercase letters
